@@ -18,5 +18,10 @@ int main()
 
 		cout << e.what() << endl;
 
+
 	}
+	cout << "Baris progam yang terkhir" << endl;
+
+
+	return 0;
  }
