@@ -21,4 +21,9 @@ int main() {
 		if (baris == "q")break;
 		outfile << baris << endl;
 	}
+	outfile.close();
+	ifstream infile;
+	infile.open("contohfile.txt");
+
+	cout << endl << ">= membuka dan membaca file " << endl;
 }
