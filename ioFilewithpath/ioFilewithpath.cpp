@@ -51,6 +51,13 @@ int main() {
                 cout << baris << '\n';
             }
             //tutup file tersebut setelah selesai
-            inflie.close();
+            infile.close();
+
+        }
+        //jika tidak ditemukan file maka akan menampilkan ini
+        else cout << "Unable to open file";
+        return 0;
+
+    }
             
 
